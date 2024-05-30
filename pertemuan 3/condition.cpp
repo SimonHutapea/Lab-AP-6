@@ -9,10 +9,10 @@ int main() {
     cout << "Masukkan nilai : ";
     cin >> nilai;
 
-    // Ternary Operation
-    // (nilai > 0) ? cout << "Positif\n" : cout<< "Negatif\n";
-    // string tipe = (nilai > 0) ? "Positif\n" : "Negatif\n";
-    // cout << tipe;
+    //Ternary Operation
+    (nilai > 0) ? cout << "Positif\n" : cout<< "Negatif\n";
+    string tipe = (nilai > 0) ? "Positif\n" : "Negatif\n";
+    cout << tipe;
 
     // if (nilai > 0 and nilai < 65) {
     //     cout << "Tidak Lulus\n";

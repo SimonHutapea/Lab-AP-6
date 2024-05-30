@@ -11,7 +11,7 @@ int main() {
     cin >> bb;
     tb = (tb * 0.01);
     bmi = bb / (tb * tb);
-    cout << fixed << setprecision(2) << bmi << endl;
+    cout << fixed << setprecision(2) << bmi << endl; //untuk memunculkan output 2 angka di belakang koma
     if (bmi < 18.5) {
         cout << "Kamu underweight";
     } else if (bmi >= 18.5 && bmi <= 25) {
